@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      
+         <script src="script.js"></script>
+
+       
+</head>
+<body>
+	
+
+	<main>
+        
+		<section class="login">
+		
+            
+            <div class="container">
+                <div class="text">
+                    REGISTERATION
+                 </div>
+                 
+			<form method="POST" action="reg.php" id="login-form">
+                <div class="data">
+				<label for="email">FullName:</label>
+                <input type="text" name="fname" id="name" required>
+                <h4 id="heading2"></h4>
+            
+            </div>
+
+           
+            <div class="data">
+				<label for="password">Email:</label><br>
+				<input type="email" name="email" id="email" required>
+                <h4 id="heading4"></h4>
+            </div>
+                
+                <div class="data">
+				<label for="password">Password:</label><br>
+				<input type="password" name="pass" id="password" required>
+                <h4 id="heading5"></h4>
+           
+            </div>
+            <div class="data">
+				<label for="password">Confirm Password:</label><br>
+				<input type="password" name="Cpass" id="confirm-password" required>
+                <h4 id="heading6"></h4>
+            </div>
+                <br>
+              
+                <br>
+                <div class="btn">
+                    <div class="inner"></div>
+				<button  name="submit" id="login-button" onclick="validateForm()">REGISTER</button>
+                
+
+            </div>
+            
+			</form>
+            </div>
+		</section>
+	</main>
+    
+
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
